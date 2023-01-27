@@ -2,17 +2,19 @@
 
 
 body {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    flex-direction: column;
-    margin: 0px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+  font-family: 'EB Garamond', serif;
 }
 
 .head {
-    background-color: #000000;
-    height: 120px;
-    width: 100%;
+  background-color: #000000;
+  height: 120px;
+  width: 100%;
 }
 
 header {
@@ -116,6 +118,7 @@ header > nav > ul {
   .menu__box a {
     display: flex;
     align-items: flex-start;
+    font-family: 'EB Garamond', serif;
   }
   .menu__item {
     display: block;
@@ -135,7 +138,63 @@ header > nav > ul {
 /*Main area*/
 
 .main-area {
-    display: flex;
-    background: url('http://www.frisorcarlen.se/img/topbild_start.jpg') no-repeat center center;
-    background-size: cover;
+  display: flex;
+  width: 100%;
+  background: url(http://www.frisorcarlen.se/img/topbild_start.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+
+
+/*Banner box*/
+
+.banners {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-box {
+  display: flex;
+  width: 230px;
+  height: 90px;
+  border: 2px solid grey;
+  background-color: #ffffff;
+  border-radius: 13px;
+  margin: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-box > img {
+  width: 100%;
+  height: 85%;
+}
+
+.main-box {
+  width: 400px;
+  height: 370px;
+}
+
+/*Footer section*/
+
+.footer-section {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 22px;
+  background-color: #61616161;
+  bottom: 0;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.footer-section > a {
+  font-family: 'EB Garamond', serif;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
