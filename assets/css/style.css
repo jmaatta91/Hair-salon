@@ -187,11 +187,12 @@ body {
 /*Main area*/
 
 .main-box {
-  background: url("../images/topbild_start.jpg") center center no-repeat fixed;
+  background: url("../images/main-area-phone.png") center center no-repeat fixed;
 
   
   background-size:cover;
-
+  height: 100vh;
+  margin-top: 129px;
 
 
 }
@@ -219,7 +220,7 @@ body {
   background-color: #9c8f8b;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  
 
 }
 
