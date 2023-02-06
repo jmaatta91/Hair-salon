@@ -187,11 +187,11 @@ body {
 /*Main area*/
 
 .main-box {
-  background: url("https://raw.githubusercontent.com/jmaatta91/Hair-salon/main/assets/images/main-area-phone.png");
-  background-attachment:scroll;
+  background: url("../images/topbild_start.jpg") center center no-repeat fixed;
+
   
   background-size:cover;
-  width:100%;
+
 
 
 }
@@ -310,3 +310,10 @@ body {
     opacity: 100%;
   }
 }
+
+@supports (-webkit-touch-callout: none) {
+  #wrapper {
+      background: url('../images/my_image.jpg') center top no-repeat scroll;
+      background-size: auto 100vh;
+  }    
+  }
