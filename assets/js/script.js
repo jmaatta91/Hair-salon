@@ -16,3 +16,8 @@ menuBtn.addEventListener("click", showMenuBar);
 function showMenuBar(){
   document.getElementById("navbar").style.top = "0";
 }
+
+$(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('#main-box').css('background-position', 'left ' + ((scrolledY)) + 'px');
+});
