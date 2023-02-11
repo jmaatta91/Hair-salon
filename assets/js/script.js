@@ -23,9 +23,6 @@ $(window).scroll(function() {
 });
 
 
-if(window.scrollY==0){
-  document.getElementById("navbar").style.top = "0";
- }
 
 
 
