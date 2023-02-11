@@ -59,15 +59,26 @@ body {
 
 
 .information {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
   color: #ffffff;
   text-align: center;
   text-align: center center;
-  margin-top: 0px;
-  width: 90%;
-  padding-left: 19px;
+  /* margin-top: 0px; */
+  /* width: 90%; */
+  /* padding-left: 5px; */
+  /* padding-right: 500px; */
   height: 510px;
   font-size: 20px;
+  justify-content: center;
+  align-content: center;
+  /* width: 100%; */
+}
+
+.information > p {
+  padding: 10px;
 }
 
 /* hamburger menu*/
@@ -266,6 +277,10 @@ body {
 
 .header-2 {
   font-size: 20px;
+  
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-top: -75px;
 }
 
 /*Banner box*/
