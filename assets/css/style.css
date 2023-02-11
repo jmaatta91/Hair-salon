@@ -281,7 +281,7 @@ body {
     padding: 10px;
 }
 
-
+html{scroll-behavior:smooth}
 
 .arrow {
   border: solid white;
