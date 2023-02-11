@@ -205,7 +205,7 @@ body {
 
 .main-area {
   width: 100%;
-  z-index: -1;
+  
   margin-top: -68px;
   background-color: #9c8f8b;
   display: flex;
