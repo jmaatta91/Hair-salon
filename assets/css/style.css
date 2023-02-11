@@ -187,19 +187,17 @@ body {
 /*Main area*/
 
 .main-box {
-  background: url("../images/main-area-phone.png") center center no-repeat fixed;
-
-  
+  background: url("../images/main-area-phone.png") center center no-repeat scroll;
   background-size:cover;
-  height: 100vh;
+  height: 93vh;
   margin-top: 129px;
-
-
+  max-width: 100%;
+  /* max-height: 100%; */
 }
 
 .booking {
   color: white;
-  margin-top: 573px;
+  padding-top: 426px;
   /* padding-left: 38%; */
   text-align: center;
   font-size: 25px;
