@@ -21,3 +21,6 @@ $(window).scroll(function() {
   var scrolledY = $(window).scrollTop();
   $('#main-box').css('background-position', 'left ' + ((scrolledY)) + 'px');
 });
+
+
+
