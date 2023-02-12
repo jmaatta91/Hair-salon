@@ -25,6 +25,7 @@ body {
   transition: top 0.3s;
   /* Transition effect when sliding down (and up) */
   top: 0;
+  z-index: 1;
 
 }
 
@@ -290,7 +291,7 @@ body {
   /* padding-left: 5px; */
   /* padding-right: 500px; */
   height: 503px;
-  font-size: 35px;
+  font-size: 30px;
   /* justify-content: center; */
   align-content: center;
   /* width: 100%; */
