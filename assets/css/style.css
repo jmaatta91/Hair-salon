@@ -162,6 +162,7 @@ body {
   display: flex;
   align-items: flex-start;
   font-family: 'EB Garamond', serif;
+  justify-content: center;
 }
 
 .menu__item {
@@ -218,6 +219,12 @@ body {
   flex-direction: column;
 
 
+}
+
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 
