@@ -71,8 +71,8 @@ body {
   /* width: 90%; */
   /* padding-left: 5px; */
   /* padding-right: 500px; */
-  height: 510px;
-  font-size: 21px;
+  height: 450px;
+  font-size: 20px;
   justify-content: center;
   align-content: center;
   /* width: 100%; */
@@ -80,6 +80,8 @@ body {
 
 .information>p {
   padding: 20px;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 /* hamburger menu*/
@@ -170,11 +172,10 @@ body {
   padding: 12px 24px;
   color: rgb(255, 255, 255);
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   text-decoration: none;
   transition-duration: .25s;
-
 }
 
 .menu__item:hover {
@@ -319,6 +320,7 @@ html, body {
   /* filter: invert(1); */
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 
@@ -333,7 +335,7 @@ html, body {
 
 .picture-1{
 
-  background-image: url("../images/Lanza-logo.png");
+  background-image: url("../images/L_anzaWhite.svg");
   background-repeat: no-repeat;
 
   background-size: auto;
@@ -348,7 +350,7 @@ html, body {
  
   background-size: auto;
   background-position: center;
-  background-image: url("../images/Olaplex_Logo.svg");
+  background-image: url("../images/Olaplex.svg");
  
 
 }
@@ -361,7 +363,7 @@ html, body {
   background-size: auto;
   background-position: center;
   
-  background-image: url("../images/wella-professionals-logo.svg");
+  background-image: url("../images/wella-professionals.svg");
 
 }
 
@@ -380,6 +382,7 @@ html {
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 7px;
+  box-shadow: 3px 2px 3px black;
 }
 
 .arrow-2 {
@@ -398,10 +401,8 @@ html {
 
 
 .header-2 {
-  font-size: 28px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-top: -75px;
+  font-size: 30px;
+  margin-top: -120px;
 }
 
 /*Banner box*/
