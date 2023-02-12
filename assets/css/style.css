@@ -78,7 +78,7 @@ body {
 }
 
 .information>p {
-  padding: 10px;
+  padding: 20px;
 }
 
 /* hamburger menu*/
@@ -141,7 +141,7 @@ body {
   display: flex;
   position: fixed;
   top: 0px;
-  left: -100%;
+  left: -110%;
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -189,19 +189,11 @@ body {
 
 /*Main area*/
 
-.main-box {
-  background: url("../images/main-area-phone.png") center center no-repeat scroll;
-  background-size: cover;
-  height: 93vh;
-  margin-top: 129px;
-  max-width: 100%;
-  /* max-height: 100%; */
-  filter: brightness(0.97);
-}
+.main-box {display: flex;background: url(../images/main-area-phone.png) center center no-repeat scroll;background-size: cover;height: 93vh;margin-top: 129px;max-width: 100%;/* max-height: 100%; */filter: brightness(0.9);justify-content: center;flex-direction: column;align-content: center;align-items: center;}
 
 .booking {
   color: white;
-  padding-top: 426px;
+  margin-top: -60px;
   /* padding-left: 38%; */
   text-align: center;
   font-size: 28px;
@@ -251,6 +243,10 @@ body {
 
 }
 
+.information-2 > p {
+  margin: 20px;
+}
+
 
 
 .products-area {
@@ -266,7 +262,7 @@ body {
 }
 
 .sub-picture-2 {
-  background-image: url("../images/produkter.jpg");
+  background-image: url("../images/img_8404_720.jpg");
   background-repeat: no-repeat;
   width: 100%;
   height: 80vh;
@@ -294,23 +290,77 @@ body {
   /* padding-left: 5px; */
   /* padding-right: 500px; */
   height: 503px;
-  font-size: 41px;
+  font-size: 35px;
   /* justify-content: center; */
   align-content: center;
   /* width: 100%; */
   letter-spacing: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 
-.brands-area{
+.brands-area > div{
   width: 100%;
-
   margin-top: 0px;
   background-color: #9c8f8b;
   display: flex;
   flex-direction: column;
+  /* padding: 20px; */
+  /* background-size: auto; */
+  /* filter: invert(1); */
+  justify-content: center;
+  align-items: center;
+}
+
+
+.brands-area{
+  background-color: #9C8F8B;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 10px;
   height: 100vh;
 }
+
+.picture-1{
+
+  background-image: url("../images/Lanza-logo.png");
+  background-repeat: no-repeat;
+
+  background-size: auto;
+  background-position: center;
+
+
+}
+
+.picture-2{
+ 
+  background-repeat: no-repeat;
+ 
+  background-size: auto;
+  background-position: center;
+  background-image: url("../images/Olaplex_Logo.svg");
+ 
+
+}
+
+
+.picture-3{
+
+  background-repeat: no-repeat;
+
+  background-size: auto;
+  background-position: center;
+  
+  background-image: url("../images/wella-professionals-logo.svg");
+
+}
+
+
+
+
+
 
 html {
   scroll-behavior: smooth;
@@ -329,6 +379,7 @@ html {
   /* position: relative; */
   justify-content: center;
   margin-top: -15px;
+  text-shadow: 0px 1px 6px black;
 }
 
 .down {
@@ -340,8 +391,8 @@ html {
 
 .header-2 {
   font-size: 28px;
-  padding-left: 1px;
-  padding-right: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin-top: -75px;
 }
 
@@ -357,18 +408,17 @@ html {
 .banner-box {
   display: flex;
   width: 230px;
-  height: 90px;
-  border: 2px solid grey;
+  /* height: 90px; */
   background-color: #ffffff;
-  border-radius: 13px;
-  margin: 10px;
+  /* border-radius: 13px; */
+  /* margin: 10px; */
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .banner-box>img {
-  width: 100%;
-  height: 85%;
+  width: 80%;
+  height: 100%;
 }
 
 
