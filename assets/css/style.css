@@ -331,7 +331,7 @@ html, body {
   background-color: #9C8F8B;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 35px;
   padding: 10px;
   height: 100vh;
   width: 100%;
