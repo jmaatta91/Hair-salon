@@ -333,7 +333,7 @@ html, body {
   background-color: #9C8F8B;
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 30px;
   padding: 10px;
   height: 100vh;
   width: 100%;
@@ -434,7 +434,7 @@ html {
 
 .banner-box>img {
   width: 80%;
-  height: 70%;
+  height: 75%;
 }
 
 
