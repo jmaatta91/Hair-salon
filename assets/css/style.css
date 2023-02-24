@@ -248,11 +248,12 @@ html, body {
 
 
 .sub-picture {
-  background-image: url("../images/topbild_om_oss.jpeg");
+  background-image: url(../images/topbild_om_oss.jpg);
   background-repeat: no-repeat;
   width: 100%;
-  height: 186px;
+  height: 200px;
   background-size: cover;
+
 
 
 }
