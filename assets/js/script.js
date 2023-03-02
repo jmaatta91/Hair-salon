@@ -14,7 +14,7 @@ var menuBtn = document.getElementById("menu__toggle");
 menuBtn.addEventListener("click", showMenuBar);
 
 function showMenuBar(){
-  document.getElementById("navbar").style.top = "-60px";
+  document.getElementById("navbar").style.top = "-0";
 }
 
 
